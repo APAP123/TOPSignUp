@@ -53,14 +53,17 @@ html, body {
   font-size: 2rem;
 }
 
-.forms {
+.forms-container {
+  display: flex;
+  flex-direction: column;
   padding-left: var(--left-padding);
   padding-right: var(--right-padding);
   box-shadow: 0px 0px 50px -9px black;
   padding-bottom: 15px;
+  margin-bottom: 30px;
 }
 
-.forms form {
+.forms-body {
   display: flex;
 }
 
@@ -70,6 +73,10 @@ html, body {
 
 .form-left {
   padding-right: 80px;
+}
+
+form button {
+  margin-left: var(--left-padding);
 }
 
 .closer {
