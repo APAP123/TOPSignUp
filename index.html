@@ -29,6 +29,7 @@
               <input type="email" id="user_email" name="user_email" required><br>
               <label for="user_password">Password</label><br>
               <input type="password" id="user_password" name="password" onkeyup="confirmPassword();" required>
+              <div id="no_match_error"></div>
             </div>
             <div class="form-right">
               <label for="last_name">Last Name</label><br>
@@ -40,7 +41,7 @@
             </div>
           </div>
         </div>
-        <button type="submit">Create Account</button>
+        <button id="submit_button" type="submit">Create Account</button>
       </form>
       <div class="closer">Already have an account? <a href="placeholder.html">Log in</a></div>
     </div>

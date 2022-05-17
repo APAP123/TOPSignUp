@@ -24,7 +24,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   background: no-repeat url("img/aarn-giri-3lGi0BXJ1W0-unsplash.jpg");
-  background-size: contain;
+  background-position: center;
   flex: 1;
 }
 
@@ -105,4 +105,13 @@ form button {
   padding-top: 30px;
   padding-left: var(--left-padding);
   padding-right: var(--right-padding);
+}
+
+a {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
