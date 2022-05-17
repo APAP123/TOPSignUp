@@ -22,7 +22,9 @@ html, body {
 .left-area {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  padding-top: 25vh;
+  padding-bottom: 2vh;
   background: no-repeat url("img/aarn-giri-3lGi0BXJ1W0-unsplash.jpg");
   background-position: center;
   flex: 1;
@@ -40,11 +42,22 @@ html, body {
   color: white;
 }
 
+.image-copyright {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.5vh;
+}
+
 .right-area {
   display: flex;
   flex-direction: column;
   background: white;
   flex: 2;
+}
+
+.left-area a {
+  color: white;
 }
 
 .introduction {
@@ -107,11 +120,11 @@ form button {
   padding-right: var(--right-padding);
 }
 
-a {
+.closer a {
   font-weight: bold;
   color: var(--main-color);
 }
 
-a:link, a:visited, a:active {
+.closer a:link, .closer a:visited, .closer a:active {
   text-decoration: none;
 }
